@@ -27,4 +27,3 @@ class Car {
 }
 let gass = new Car
 gass.getNumGas();
-let num = new Car
