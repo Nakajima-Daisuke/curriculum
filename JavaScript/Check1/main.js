@@ -5,19 +5,20 @@ let numbers = [2, 5, 12, 13, 15, 18, 22];
 console.log(numbers);
 for(let num = 0;num < numbers.length;num++) {
     if(numbers[num] % 2 === 0) {
-        function isEven(num) {
-            console.log(num + "は偶数です。");
-            isEven(number[num]);
+            isEven(numbers[num]);
             }
     }
-}
+
+    function isEven(num) {
+        console.log(num + "は偶数です。");
+    }
 
 
 // 問2:以下の要件を満たすように実装してください。 【要件】 ・インスタンス化した時にガソリンとナンバーがセットされるようなCarクラスを作成する ・「ガソリンは〇〇です。ナンバーは△△です」と出力される「getNumGas」という関数を作成する
 class Car {
     constructor(gass,num) {
-        this.gass = gass;
-        this.num = num;
+        this.gass = "〇〇";
+        this.num = "△△";
     }
 
     getNumGas() {
@@ -27,4 +28,3 @@ class Car {
 let gass = new Car
 gass.getNumGas();
 let num = new Car
-num.getNumGas();
