@@ -1,0 +1,54 @@
+/* ウィンドウ幅が767pxまでの場合 */
+@media screen and (max-width: 767px ) {
+	.header {
+		width: 250px;
+	}
+
+	.side {
+		width: 100px;
+	}
+
+	.footer {
+		width: 250px;
+	}
+}
+
+/* ウィンドウ幅が479pxまでの場合 */
+@media screen and (max-width: 479px ) {
+	.header {
+		width: 150px;
+	}
+
+	.side {
+		width: 150px;
+		float: none;
+	}
+
+	.footer {
+		width: 150px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ウィンドウ幅が767pxまでの場合】
+・headerの横幅を250pxにする
+・rightの横幅を100pxにする
+・footerの横幅を250pxにする
+
+【ウィンドウ幅が479pxまでの場合】
+・headerの横幅を150pxにする
+・rightの横幅を150pxにする
+・footerの横幅を150pxにする
+・要素の浮動化(float)の解除
