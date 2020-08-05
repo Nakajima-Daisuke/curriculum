@@ -21,7 +21,7 @@
 
 	.side {
 		width: 150px;
-		float: none;
+		clear: left;
 	}
 
 	.footer {

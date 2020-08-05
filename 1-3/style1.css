@@ -28,7 +28,7 @@ body {
 	float: left;
 	width: 250px;
 	height: 250px;
-	background: #8c2727;	
+	background: #8c2727;
 }
 
 .footer {
@@ -41,6 +41,4 @@ body {
 	content: "";
 	display: block;
 	clear: both;
-	height: 0;
-	visibility: hidden;
 }
