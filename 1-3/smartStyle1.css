@@ -1,5 +1,5 @@
 /* ウィンドウ幅が767pxまでの場合 */
-@media screen and (max-width: 767px ) {
+@media screen and (min-width: 767px ) {
 	.header {
 		width: 250px;
 	}
