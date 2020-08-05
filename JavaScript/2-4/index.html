@@ -1,3 +1,9 @@
+<!-- 問1：以下の要件を満たすように「追加ボタン」と「削除ボタン」実装してください。
+
+・「追加ボタン」：指定した文字列をテキストエリアに追加することができる。
+・「削除ボタン」：出力されたテキストを空にする。
+・削除ボタンが押された時は、入力欄に入れたテキストも消えるようにする。 -->
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -14,14 +20,19 @@
     
     <script>   
     function addText() {
-        target = document.getElementById("area1");
-        textBox = document.getElementById("text1");
-        target.innerText = textBox.value;
+        //①入力欄のテキストを取得
+        const UserString = document.getElementById("text1").value;
+        //②出力欄のテキストエリアを取得
+        document.getElementById("area1").value;
+        //③出力欄に入力された文字列を足していく
+        document.getElementById("area1").value += UserString;
     }
 
     function deleteText() {
+        //④出力欄のテキストを空にする
         let textForm = document.getElementById("text1");
         textForm.value = '';
+        //⑤入力欄のテキストを空にする
         let textareaform = document.getElementById("area1");
         textareaform.value = '';
     }
