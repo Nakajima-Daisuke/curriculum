@@ -1,25 +1,25 @@
 @media screen and (max-width:479px ) {
 	.wrapper {
-			width:200px;
-			float:none;
+		width:200px;
+		float:none;
 	}
 
 	.header {
-			width:200px;
-			height: 200px;
+		width:200px;
+		height: 200px;
 	}
 
 	.boxA {
-			margin-right:80px;
-			float: right;
-			top: 10px;
-			left:70px;
+		margin-right:80px;
+		float: right;
+		top: 10px;
+		left:70px;
 	}
 
 	.boxB {
 		margin-left: 70px;
-			top: 70px;
-			left: 10px;
+		top: 70px;
+		left: 10px;
 	}
 
 	.boxC {
@@ -28,11 +28,11 @@
 	}
 
 	.left {
-			width:200px;
+		width:200px;
 	}
 
 	.right {
-			width:200px;
+		width:200px;
 	}
 
 	.boxD {
