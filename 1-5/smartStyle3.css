@@ -6,20 +6,25 @@
 
 	.header {
 			width:200px;
+			height: 200px;
 	}
 
 	.boxA {
-			margin-right:70px;   
+			margin-right:80px;
+			float: right;
+			top: 10px;
+			left:70px;
 	}
 
 	.boxB {
-			margin-right:70px;
-			padding-top:80px;
+		margin-left: 70px;
+			top: 70px;
+			left: 10px;
 	}
 
 	.boxC {
-			margin-right:70px;
-			padding-top:120px;
+		top: 130px;
+		left: 80px;
 	}
 
 	.left {
@@ -28,5 +33,21 @@
 
 	.right {
 			width:200px;
+	}
+
+	.boxD {
+		margin: 20px 0 0 30px;
+	}
+
+	.boxE {
+		margin: 90px 0 0 30px;
+	}
+
+	.boxF {
+		margin: 160px 0 0 30px;
+	}
+
+	.footer {
+		width: 200px;
 	}
 }
