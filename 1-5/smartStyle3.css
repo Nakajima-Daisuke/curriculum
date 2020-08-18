@@ -18,13 +18,15 @@
 
 	.boxB {
 		margin-left: 70px;
+		border:solid 10px #fff; 
 		top: 70px;
-		left: 10px;
+		left: 0;
 	}
 
 	.boxC {
+		border:solid 10px #fff; 
 		top: 130px;
-		left: 80px;
+		left: 70px;
 	}
 
 	.left {
