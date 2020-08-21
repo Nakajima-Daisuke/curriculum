@@ -1,0 +1,53 @@
+.boxA {
+  width: 600px;
+}
+
+.box1 {
+  float: left;
+  background-color: #FFFF00;
+  width: 600px;
+  height: 150px;
+}
+
+.box2 {
+  float: left;
+  width: 200px;
+  height: 150px;
+  background-color: #33FFFF;
+}
+
+.box3 {
+  float: left;
+  width: 200px;
+  height: 150px;
+  background-color: #FF0000;
+}
+
+.box4 {
+  float: left;
+  width: 200px;
+  height: 150px;
+  background-color: #0000FF;
+}
+
+.box5 {
+  float: left;
+  background-color:#00FF00;
+  width: 450px;
+  height: 150px;
+}
+
+.box6 {
+  float: left;
+  background-color: #FF00FF;
+  width: 150px;
+  height: 150px;
+}
+
+.box7 {
+  float: left;
+  background-color:#33FFFF;
+  width:600px;
+  height: 150px;
+}
+
