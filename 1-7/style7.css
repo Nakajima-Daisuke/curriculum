@@ -10,10 +10,10 @@
 }
 
 .box2 {
-  background-color: #dbd403;
   float: left;
   height: 150px;
   width: 100px;
+  background-color: #dbd403;
 }
 
 .box3 {
@@ -24,24 +24,24 @@
 }
 
 .box4 {
+  float: right;
+  height: 250px;
+  width: 150px;
+  background-color: #80bfa8;
+}
+
+.box5 {
   float: left;
   height: 100px;
   width: 150px;
   background-color: #ff9e6b;
 }
 
-.box5 {
+.box6 {
   float: left;
   height: 100px;
   width: 250px;
   background-color: #0093b7;
-}
-
-.box6 {
-  float: right;
-  height: 250px;
-  width: 150px;
-  background-color: #80bfa8;
 }
 
 .box7 {
