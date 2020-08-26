@@ -1,0 +1,55 @@
+@media screen and (max-width:479px ) {
+	.wrapper {
+		width:200px;
+		float:none;
+	}
+
+	.header {
+		width:200px;
+		height: 200px;
+	}
+
+	.boxA {
+		margin-right:80px;
+		float: right;
+		top: 10px;
+		left:70px;
+	}
+
+	.boxB {
+		margin-left: 70px;
+		border:solid 10px #fff; 
+		top: 70px;
+		left: 0;
+	}
+
+	.boxC {
+		border:solid 10px #fff; 
+		top: 130px;
+		left: 70px;
+	}
+
+	.left {
+		width:200px;
+	}
+
+	.right {
+		width:200px;
+	}
+
+	.boxD {
+		margin: 20px 0 0 30px;
+	}
+
+	.boxE {
+		margin: 90px 0 0 30px;
+	}
+
+	.boxF {
+		margin: 160px 0 0 30px;
+	}
+
+	.footer {
+		width: 200px;
+	}
+}
