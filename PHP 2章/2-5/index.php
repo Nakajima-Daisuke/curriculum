@@ -20,13 +20,13 @@ PHPの
 $name = "taro";
 $pass = "pass";
 
-if ($name == "taro" && $pass == "pass") {
+if ($name === "taro" && $pass === "pass") {
     echo "ログイン成功です。";
-} elseif($name == "taro") {
+} elseif($name === "taro") {
     echo "パスワードが間違っています。";
-} elseif($pass == "pass") {
+} elseif($pass === "pass") {
     echo "名前が間違っています。";
-} else {
+} elseif ($name !== "taro" && $pass !== "pass") {
     echo "入力情報が間違っています。";
 }
 ?>
