@@ -9,6 +9,42 @@ PHPの
 2-4
 */
 ?>
+
+<?php
+// 1.代入演算子
+$y = 100;
+echo $y + 100;
+echo '<br>';
+
+// 2.連結演算子
+echo "おはよう" . "ございます";
+echo '<br>';
+$ab = "集まれ";
+$cd = "どうぶつの森";
+echo $ab . $cd;
+echo '<br>';
+
+// 3.四則演算子
+echo 10 + 10;
+echo '<br>';
+echo 730 - 15;
+echo '<br>';
+echo 700 * 0.5;
+echo '<br>';
+echo 300 / 15;
+echo '<br>';
+echo 20 % 3;
+echo '<br>';
+
+// 4.単行演算子
+$a = 10;
+$a++;
+echo $a;
+echo '<br>';
+$a--;
+echo $a;
+?>
+
 <html>
     <p>I say that <?php echo "Hello World!!"; ?></p>
 </html>
